@@ -1,0 +1,207 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f8eec6;
+  font-size: 62.5%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 0.4em;
+  font-size: 14em;
+  text-decoration: underline;
+  margin: 0.5em 15% 0em 15%;
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+h2{
+  text-align: center;
+  padding: 1em 3.1em 0em 3.1em;
+  margin: 0em 3em;
+  font-size: 4em;
+}
+
+.ahYes{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.3em;
+  font-weight: lighter;
+  float: left;
+  position: relative;
+}
+
+.descriptionBodyWrap{
+  padding: 2em;
+}
+
+.bodyOfDescription{
+  display: inline;
+}
+
+.mainSect{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 2em 30em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#spinTheWheel{
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 1em;
+  margin: 0em 2em 0 2em;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 3.5em;
+  margin: 1em;
+}
+
+.contentWrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#dynamic-img {
+  width: auto;
+  max-width: 75%;
+  max-height: 70vh;
+  padding: auto;
+  border-radius: 1em;
+}
+
+#caption{
+  font-size: 2em;
+}
+
+#map{
+  height: 500px;
+  width: 500px;
+  display: block;
+}
+
+footer{
+  font-size: 2em;
+  padding-top: 3em;
+}
+
+.footerWrap{
+  margin: 3em 1em 1em 1em;
+  padding: 3em 2em 2em 2em;
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+}
+
+.footerWrap a{
+  color: black;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+
+@media screen and (max-width: 600px){
+  body{
+    /* background-color: green; */
+  }
+  h1{
+    font-size: 9em;
+  }
+  h2{
+    font-size: 3em;
+    margin: 1em 0em;
+    padding: 0.5em;
+  }
+  .mainSect{
+    margin: 3em;
+  }
+  .ahYes{
+    padding-left: 1em;
+    font-size: 1.7em;
+  }
+  .descriptionBodyWrap{
+    padding: 1em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 750px){
+  body{
+    /* background-color: green; */
+  }
+  h1{
+    font-size: 9em;
+  }
+  h2{
+    margin: 1em 0em;
+  }
+  .mainSect{
+    margin: 3em;
+  }
+  .ahYes{
+    padding-left: 1em;
+    font-size: 1.7em;
+  }
+  .descriptionBodyWrap{
+    padding: 1em;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1000px){
+  body{
+    /* background-color: blue; */
+  }
+  h1{
+    font-size: 9em;
+  }
+  h2{
+    margin: 1em 0em;
+  }
+  .mainSect{
+    margin: 6em 3em;
+  }
+  .ahYes{
+    padding-left: 1em;
+    font-size: 1.7em;
+  }
+  .descriptionBodyWrap{
+    padding: 1em;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px){
+  body{
+    /* background-color: pink; */
+  }
+  h1{
+    font-size: 11em;
+  }
+  h2{
+    margin: 1em 0em;
+  }
+  .mainSect{
+    margin: 5em;
+  }
+  .ahYes{
+    padding-left: 1em;
+    font-size: 1.7em;
+  }
+  .descriptionBodyWrap{
+    padding: 1em;
+  }
+}
