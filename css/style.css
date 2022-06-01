@@ -21,7 +21,7 @@ h1 {
 h2 {
     text-align: center;
     padding: 0em 3.1em 1em 3.1em;
-    margin: 0em 3em;
+    margin: 0em auto;
     font-size: 4em;
     max-width: 70%;
 }
@@ -41,6 +41,10 @@ p {
     background-color: #f1f1f1;
     box-shadow: 10px 5px 5px rgb(7, 7, 7);
     max-width: 1200px;
+}
+
+.hidden {
+    display: none;
 }
 
 #spinTheWheel {
@@ -162,7 +166,6 @@ footer {
     }
     h2 {
         font-size: 3.4em;
-        margin: 1em 0em;
     }
     .mainSect {
         margin: 5em;
